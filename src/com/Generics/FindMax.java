@@ -4,17 +4,13 @@ public class FindMax {
 	public static int checkMaximum(Integer x, Integer y, Integer z) {
 		Integer max = x;
 		if (y.compareTo(max) > 0) {
-			max = y; // y is largest now
+			max = y;
 		}
 		if (z.compareTo(max) > 0) {
-			max = z; // z is largest now
+			max = z;
 		}
-		return max; // returns maximum number
+		return max;
 	}
-
-	/**
-	 * main method calling checkMaximum function printing max value
-	 */
 
 	public static void main(String[] args) {
 
